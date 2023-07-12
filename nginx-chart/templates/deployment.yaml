@@ -18,8 +18,8 @@ spec:
           image: nginx:1.22.0
           ports:
             - containerPort: 80
-            resources:
-              requests:
-                memory: "64Mi"
-                cpu: "100m"
+          resources:
+             requests:
+               memory: "64Mi"
+               cpu: "100m"
 
